@@ -15,3 +15,6 @@ https://pepega.tistory.com/47
 ## HOW TO DEPLOY
 
 https://hub.docker.com/repository/docker/gudrb963/airflow
+```
+docker pull gudrb963/airflow:2.2.4
+```
