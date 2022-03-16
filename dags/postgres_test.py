@@ -5,7 +5,7 @@ from airflow import DAG
 
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.email_operator import EmailOperator
-from airflow.operators.sql_branch_operator import BranchSqlOperator
+from airflow.operators.sql import BranchSQLOperator
 
 KST = pendulum.timezone("Asia/Seoul")
 
@@ -20,7 +20,7 @@ with DAG(
     catchup=True,
     tags=['pepega'],
 ) as dag:
-    true_branch_operator = BranchSqlOperator(
+    true_branch_operator = BranchSQLOperator(
         task_id="true_sql_branch_id",
         conn_id="postgres_test",
         sql="sql/account_count.sql",
@@ -28,7 +28,7 @@ with DAG(
         follow_task_ids_if_false="false_operator_1st",
     )
 
-    false_branch_operator = BranchSqlOperator(
+    false_branch_operator = BranchSQLOperator(
         task_id="false_sql_branch_id",
         conn_id="postgres_test",
         sql="sql/zero_count.sql",
