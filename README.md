@@ -12,6 +12,9 @@ https://pepega.tistory.com/46
 <b>Use EmailOperator</b><br>
 https://pepega.tistory.com/47
 
+<b>Use custom Operator</b><br>
+https://pepega.tistory.com/48
+
 ## HOW TO DEPLOY
 
 https://hub.docker.com/repository/docker/gudrb963/airflow
