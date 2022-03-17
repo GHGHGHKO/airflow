@@ -23,7 +23,7 @@ https://pepega.tistory.com/50
 
 ## HOW TO DEPLOY
 
-https://hub.docker.com/repository/docker/gudrb963/airflow
+https://hub.docker.com/repository/docker/gudrb963/oracle-airflow
 ```
-docker pull gudrb963/airflow:2.2.4
+docker pull gudrb963/oracle-airflow:2.2.4
 ```
