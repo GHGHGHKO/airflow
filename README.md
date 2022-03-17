@@ -15,6 +15,12 @@ https://pepega.tistory.com/47
 <b>Use custom Operator</b><br>
 https://pepega.tistory.com/48
 
+<b>How to use PostgresOperator Hooks</b><br>
+https://pepega.tistory.com/49
+
+<b>How to use OracleOperator Hooks</b><br>
+https://pepega.tistory.com/50
+
 ## HOW TO DEPLOY
 
 https://hub.docker.com/repository/docker/gudrb963/airflow
