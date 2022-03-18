@@ -21,6 +21,12 @@ https://pepega.tistory.com/49
 <b>How to use OracleOperator Hooks</b><br>
 https://pepega.tistory.com/50
 
+<b>XComs puller</b><br>
+https://pepega.tistory.com/51
+
+<b>Send XComs with email</b><br>
+https://pepega.tistory.com/52
+
 ## HOW TO DEPLOY
 
 https://hub.docker.com/r/gudrb963/oracle-airflow/tags
