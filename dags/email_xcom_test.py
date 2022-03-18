@@ -13,7 +13,7 @@ default_args = {
 
 with DAG(
     default_args = default_args,
-    dag_id="send_email",
+    dag_id="xcom_send_email",
     start_date=datetime.datetime(2022, 3, 1, tzinfo=KST),
     schedule_interval="@once",
     catchup=True,
