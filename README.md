@@ -27,6 +27,9 @@ https://pepega.tistory.com/51
 <b>Send XComs with email</b><br>
 https://pepega.tistory.com/52
 
+<b>Export csv with query</b><br>
+https://pepega.tistory.com/53
+
 ## HOW TO DEPLOY
 
 https://hub.docker.com/r/gudrb963/oracle-airflow/tags
